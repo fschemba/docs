@@ -268,7 +268,36 @@ To submit an escalation request, complete the following steps:
        * The ticket number of your open support ticket that needs escalation.
 	   * A brief summary of the reasons that escalation is needed.
 
+### How different services are support
+{: #servicelevels}
 
+You define the severity of the issue based on your business needs and your level of
+support. ‘Severity level guidelines & response time objectives’ are described below.
+
+All tickets opened by you are investigated with the purpose of identifying root cause. When
+problem diagnostic data is needed to isolate an issue, you will be asked if we do have your
+approval to access logs and other problem determination data from your application to help
+determine root cause. Not providing access to this data may delay problem resolution.
+Once root cause analysis is complete, the team will take one of the following actions: 
+
+<ol><li><u>Root cause is an IBM Generally Available Service or container image</u> - If a ticket is
+opened and the root cause analysis determined that this is a defect in the IBM
+provided Generally Available service or container image, the ticket will be provided
+attention based on the severity set by you.</li><li><u>Root cause is an IBM Beta Service or container image</u> - IBM will release services or container images that are classified as Beta. This helps the development and
+marketing teams assess the value of the service in the market and make
+adjustments before making the service Generally Available. If a ticket is opened
+and the root cause analysis determines that there is a defect in an IBM provided
+Beta service, then IBM is not obligated to provide a fix. Additionally, the ticket
+would be handled with a severity 3 or 4 where applicable.</li><li><u>Root cause is an Experimental Service or container image</u> - IBM will release services or container images that are classified as Experimental. These services
+may be unstable, change frequently and may be discontinued with short notice. Services identified as Experimental will be supported via our Bluemix forum only.</li><li><u>Root cause is a Third Party Service</u> - Third party services are provided by vendors outside of IBM. They can be provided by individual software entities, partners or
+ISVs. If a ticket is opened and the root cause analysis determines that there is a
+defect in a Third Party Service, then IBM is not obligated to provide a
+fix. Additionally, IBM will work through our Market place and with the client and
+third party to help solve the problem.</li><li><u>Root cause is an Open Source or Community Service</u> - Open Source or
+Community services are provided by open source communities outside of IBM. If a
+ticket is opened and the root cause analysis determines that there is a defect in a
+Community Service, then IBM is not obligated to provide a fix. Additionally, IBM will
+close the ticket and refer the customer to the community or forum for support.</li></ol>
 
 
 ## Collecting diagnostic information
@@ -297,28 +326,6 @@ The scripts use the cf command line interface to extract the following informati
   * Configured routes
   * Events
   * Provisioned services
-
-
-## National language support for {{site.data.keyword.Bluemix_notm}}
-{: #lang}
-
-{{site.data.keyword.Bluemix_notm}} supports national languages other than English. However, not all of the content that is provided with {{site.data.keyword.Bluemix_notm}} is translated.
-The following table lists the supported national languages and language codes for {{site.data.keyword.Bluemix_notm}}.
-
-| **National language** | **Language code** |
-|-------------------|---------------|
-| Brazilian Portuguese | pt_BR |
-| English | en |
-| French | fr |
-| German | de |
-| Japanese | ja |
-| Korean | ko |
-| Italian | it |
-| Spanish | es |
-| Simplified Chinese | zh_CN |
-| Traditional Chinese | zh_TW |
-
-*Table 3. Supported national languages and language codes*
 
 
 ## Satisfaction surveys for {{site.data.keyword.Bluemix_notm}} support  
