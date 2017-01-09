@@ -230,7 +230,7 @@ When you contact support, you can request a specific severity level, depending o
 
 The following table lists some common examples of support issues, suggested severity levels and the response time objectives. The response time objectives are used to describe IBM's goals only, and don't represent a guarantee of performance.
 
-**Hours of operation:** Sunday 10:00 PM GMT – Friday 11:59 PM GMT (excluding US/Italian/Australian holidays). For more information about the holiday schedule, see [Bluemix Support Holidays](http://ibm.biz/bluemixholidays){: new_window}. 
+**Hours of operation:** Sunday 10:00 PM GMT – Friday 11:59 PM GMT. For more information about the holiday schedule, see [Bluemix Support Holidays](http://ibm.biz/bluemixholidays){: new_window}. 
 
 
 Severity | Severity definition | Response time objectives | Response time coverage
@@ -299,10 +299,10 @@ The scripts use the cf command line interface to extract the following informati
   * Provisioned services
 
 
-## National language support for {{site.data.keyword.Bluemix_notm}}
+## Supported Languages for {{site.data.keyword.Bluemix_notm}}
 {: #lang}
 
-{{site.data.keyword.Bluemix_notm}} supports national languages other than English. However, not all of the content that is provided with {{site.data.keyword.Bluemix_notm}} is translated.
+{{site.data.keyword.Bluemix_notm}} provides technical support in English and Jsupports national languages other than English. However, not all of the content that is provided with {{site.data.keyword.Bluemix_notm}} is translated.
 The following table lists the supported national languages and language codes for {{site.data.keyword.Bluemix_notm}}.
 
 | **National language** | **Language code** |
